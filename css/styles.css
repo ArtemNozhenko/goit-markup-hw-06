@@ -917,6 +917,8 @@ body {
   font-weight: 400;
   line-height: 1.17;
   letter-spacing: 0.04em;
+  display: flex;
+  align-items: center;
 }
 
 .modal-checkbox-label-color {
@@ -932,6 +934,7 @@ body {
   display: inline-flex;
   justify-content: center;
   align-items: center;
+  flex-shrink: 0;
   cursor: pointer;
   width: 16px;
   height: 16px;
