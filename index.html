@@ -1025,7 +1025,7 @@
                       ./images/Portfolio/online-courses-tab.jpg    1x,
                       ./images/Portfolio/online-courses-tab@2x.jpg 2x
                     "
-                    media="(min-width: 788px)"
+                    media="(min-width: 768px)"
                     width="356"
                     height="300"
                   />
@@ -1214,103 +1214,182 @@
     </footer>
 
     <!-- Modal Window -->
-    <!-- 
+
     <div class="backdrop is-open">
-<div class="modal">
-<button class="close-btn" type="button">
-  <svg
-  class="close-btn-icon"
-  width="8"
-  height="8"
-  aria-label="close modal icon">
-  <use href="./images/icons.svg#icon-close"></use>
-  </svg>
-</button>
-<p class="modal-text">Leave your contacts and we will call you back</p>
-<form class="modal-form">
-  <div class="modal-fiald">
-    <label class="modal-fiald-label" for="user-name">Name</label>
-   <div class="modal-icon-input">
-     <input
-     class="modal-input"
-     type="text"
-     id="user-name"
-     name="user-name"
-     pattern="[a-zA-Zа-яА-ЯіІїЇєЄґҐʼ]+"
-     title="Artem"
-     required>
-     <svg class="modal-icon" width="18" height="24" aria-label="icon user">
-       <use href="./images/icons.svg#icon-person"></use>
-     </svg>
-   </div>
+      <div class="modal">
+        <button
+          class="close-btn"
+          type="button"
+        >
+          <svg
+            class="close-btn-icon"
+            width="8"
+            height="8"
+            aria-label="close modal icon"
+          >
+            <use
+              href="./images/icons.svg#icon-close"
+            ></use>
+          </svg>
+        </button>
+        <p class="modal-text">
+          Leave your contacts and we
+          will call you back
+        </p>
+        <form class="modal-form">
+          <div class="modal-fiald">
+            <label
+              class="modal-fiald-label"
+              for="user-name"
+              >Name</label
+            >
+            <div
+              class="modal-icon-input"
+            >
+              <input
+                class="modal-input"
+                type="text"
+                id="user-name"
+                name="user-name"
+                pattern="[a-zA-Zа-яА-ЯіІїЇєЄґҐʼ]+"
+                title="Artem"
+                required
+              />
+              <svg
+                class="modal-icon"
+                width="18"
+                height="24"
+                aria-label="icon user"
+              >
+                <use
+                  href="./images/icons.svg#icon-person"
+                ></use>
+              </svg>
+            </div>
+          </div>
+          <div class="modal-fiald">
+            <label
+              class="modal-fiald-label"
+              for="user-tel"
+              >Phone</label
+            >
+            <div
+              class="modal-icon-input"
+            >
+              <input
+                class="modal-input"
+                id="user-tel"
+                name="user-tel"
+                type="tel"
+                pattern="[0-9]{3}-[0-9]{3}-[0-9]{2}-[0-9]{2}"
+                title="xxx-xxx-xx-xx"
+                required
+              />
+              <svg
+                class="modal-icon"
+                width="18"
+                height="24"
+                aria-label="icon tel"
+              >
+                <use
+                  href="./images/icons.svg#icon-phone"
+                ></use>
+              </svg>
+            </div>
+          </div>
+          <div class="modal-fiald">
+            <label
+              class="modal-fiald-label"
+              for="user-email"
+              >Email</label
+            >
+            <div
+              class="modal-icon-input"
+            >
+              <input
+                class="modal-input"
+                id="user-email"
+                name="user-email"
+                type="email"
+                required
+              />
+              <svg
+                class="modal-icon"
+                width="18"
+                height="24"
+                aria-label="icon email"
+              >
+                <use
+                  href="./images/icons.svg#icon-email"
+                ></use>
+              </svg>
+            </div>
+          </div>
+          <div
+            class="modal-fiald-comment"
+          >
+            <label
+              class="modal-fiald-label"
+              for="user-comment"
+              >Comment</label
+            >
+            <textarea
+              class="modal-comment"
+              name="user-comment"
+              id="user-comment"
+              placeholder="Text input"
+            >
+            </textarea>
+          </div>
+          <div class="modal-checkbox">
+            <input
+              class="modal-checkbox-input visually-hidden"
+              id="user-privacy"
+              name="user-privacy"
+              type="checkbox"
+              value="true"
+              required
+            />
+            <label
+              class="modal-checkbox-label"
+              for="user-privacy"
+            >
+              <span
+                class="modal-checkbox-span"
+              >
+                <svg
+                  class="modal-checkbox-icon"
+                  width="10"
+                  height="8"
+                >
+                  <use
+                    href="./images/icons.svg#icon-vector"
+                  ></use>
+                </svg>
+              </span>
+              I accept the terms and
+              conditions of the
+              <a
+                class="modal-checkbox-label-color"
+                href=""
+                >Privacy Policy</a
+              ></label
+            >
+          </div>
+          <button
+            class="modal-btn"
+            type="submit"
+          >
+            Send
+          </button>
+        </form>
+      </div>
     </div>
-  <div class="modal-fiald">
-    <label class="modal-fiald-label" for="user-tel">Phone</label>
-    <div class="modal-icon-input">
-    <input
-    class="modal-input"
-    id="user-tel"
-    name="user-tel"
-    type="tel"
-    pattern="[0-9]{3}-[0-9]{3}-[0-9]{2}-[0-9]{2}"
-    title="xxx-xxx-xx-xx"
-    required>
-    <svg class="modal-icon" width="18" height="24" aria-label="icon tel">
-      <use href="./images/icons.svg#icon-phone"></use>
-    </svg>
-  </div>
-  </div>
-  <div class="modal-fiald">
-    <label class="modal-fiald-label" for="user-email">Email</label>
-    <div class="modal-icon-input">
-    <input
-    class="modal-input"
-    id="user-email"
-    name="user-email"
-    type="email"
-    required>
-    <svg class="modal-icon" width="18" height="24" aria-label="icon email">
-      <use href="./images/icons.svg#icon-email"></use>
-    </svg>
-  </div>
-  </div>
-  <div class="modal-fiald-comment">
-    <label class="modal-fiald-label" for="user-comment">Comment</label>
-    <textarea
-    class="modal-comment"
-    name="user-comment"
-    id="user-comment"
-    placeholder="Text input">
-  </textarea>
-  </div>
-  <div class="modal-checkbox">
-    <input
-    class="modal-checkbox-input visually-hidden"
-    id="user-privacy"
-    name="user-privacy"
-    type="checkbox"
-    value="true"
-    required>
-    <label
-    class="modal-checkbox-label"
-    for="user-privacy">
-    <span class="modal-checkbox-span">
-      <svg class="modal-checkbox-icon"
-      width="10"
-      height="8">
-      <use href="./images/icons.svg#icon-vector"></use>
-    </svg>
-    </span>
-    I accept the terms and conditions of the
-      <a class="modal-checkbox-label-color" href="">Privacy Policy</a></label>
-  </div>
-  <button class="modal-btn" type="submit">Send</button>
-</form>
-</div>
-    </div>
- -->
+
     <!-- Mobile menu -->
-    <div class="mobile-menu-wrapper">
+    <div
+      class="mobile-menu-wrapper is-open"
+    >
       <div
         class="container container-mobile-menu"
       >
